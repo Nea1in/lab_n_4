@@ -1,4 +1,4 @@
-package exception;
+package com.lpnu.exception;
 
 public class ServiceException extends RuntimeException{
     private int code;

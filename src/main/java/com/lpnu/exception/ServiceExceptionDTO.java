@@ -1,4 +1,4 @@
-package exception;
+package com.lpnu.exception;
 
 public class ServiceExceptionDTO {
     private int code;

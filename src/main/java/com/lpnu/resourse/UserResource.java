@@ -1,16 +1,18 @@
-package resourse;
+package com.lpnu.resourse;
 
-import dto.UserDTO;
+
+import com.lpnu.dto.UserDTO;
+import com.lpnu.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.UserService;
+
 
 import javax.validation.Valid;
 import java.util.List;
 
 @RestController
 public class UserResource {
- /*   @Autowired
+   @Autowired
     private UserService userService;
 
     @GetMapping("/users/{id}")
@@ -36,5 +38,5 @@ public class UserResource {
     @DeleteMapping("/users/{id}")
     public void deleteUserById(final @PathVariable Long id){
         userService.deleteUserById(id);
-    }*/
+    }
 }

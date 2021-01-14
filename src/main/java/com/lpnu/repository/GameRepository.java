@@ -1,7 +1,8 @@
-package repository;
+package com.lpnu.repository;
 
-import entity.Game;
-import exception.ServiceException;
+
+import com.lpnu.entity.Game;
+import com.lpnu.exception.ServiceException;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;

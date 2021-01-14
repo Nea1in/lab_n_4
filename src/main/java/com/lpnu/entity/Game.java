@@ -1,4 +1,4 @@
-package entity;
+package com.lpnu.entity;
 
 public class Game {
     private Long id;
@@ -20,7 +20,7 @@ public class Game {
         return nameGame;
     }
 
-    public void setNameGame(final String title) {
+    public void setNameGame(final String nameGame) {
         this.nameGame = nameGame;
     }
 

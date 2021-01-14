@@ -1,4 +1,4 @@
-package entity;
+package com.lpnu.entity;
 
 import java.time.LocalDate;
 import java.util.HashMap;

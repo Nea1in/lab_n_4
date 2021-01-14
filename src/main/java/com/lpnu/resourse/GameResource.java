@@ -1,15 +1,17 @@
-package resourse;
+package com.lpnu.resourse;
 
-import dto.GameDTO;
+
+import com.lpnu.dto.GameDTO;
+import com.lpnu.service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.GameService;
+
 
 import java.util.List;
 
 @RestController
 public class GameResource {
-    /*
+
     @Autowired
     private GameService gameService;
 
@@ -38,5 +40,5 @@ public class GameResource {
         gameService.deleteGameById(id);
     }
 
-     */
+
 }

@@ -1,4 +1,4 @@
-package dto;
+package com.lpnu.dto;
 
 public class GameDTO {
     private Long id;
@@ -20,8 +20,8 @@ public class GameDTO {
         return nameGame;
     }
 
-    public void setNameGame(final String title) {
-        this.nameGame = title;
+    public void setNameGame(final String nameGame) {
+        this.nameGame = nameGame;
     }
 
     public double getPrice() {

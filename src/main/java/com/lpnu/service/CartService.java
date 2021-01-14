@@ -1,6 +1,7 @@
-package service;
+package com.lpnu.service;
 
-import dto.OrderDTO;
+
+import com.lpnu.dto.OrderDTO;
 
 public interface CartService {
     OrderDTO getCartByUserId(Long userId);

@@ -1,16 +1,18 @@
-package resourse;
+package com.lpnu.resourse;
 
-import dto.OrderDTO;
+
+import com.lpnu.dto.OrderDTO;
+import com.lpnu.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.OrderService;
+
 
 import javax.validation.Valid;
 import java.util.List;
 
 @RestController
 public class OrderResource {
-    /*
+
     @Autowired
     private OrderService orderService;
 
@@ -39,5 +41,5 @@ public class OrderResource {
         orderService.deleteOrderById(id);
     }
 
-     */
+
 }

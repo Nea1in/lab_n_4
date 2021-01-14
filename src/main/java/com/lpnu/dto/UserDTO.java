@@ -1,4 +1,4 @@
-package dto;
+package com.lpnu.dto;
 
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;

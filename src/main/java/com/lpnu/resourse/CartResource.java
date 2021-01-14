@@ -1,13 +1,15 @@
-package resourse;
+package com.lpnu.resourse;
 
-import dto.OrderDTO;
+
+import com.lpnu.dto.OrderDTO;
+import com.lpnu.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.CartService;
+
 
 @RestController
 public class CartResource {
-/*
+
     @Autowired
     public CartService cartService;
 
@@ -28,6 +30,5 @@ public class CartResource {
                                   final @PathVariable Long gameId){
         return cartService.removeGameFromCart(userId, gameId);
     }
-    */
 
 }

@@ -1,4 +1,4 @@
-package entity;
+package com.lpnu.entity;
 
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
@@ -11,9 +11,6 @@ public class User {
     private String firstname;
     private String lastname;
     private LocalDate birth;
-
-    //todo add username and password
-
     private List<Order> orders = new ArrayList<>();
 
     public User() {

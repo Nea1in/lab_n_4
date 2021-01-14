@@ -1,8 +1,9 @@
-package mapper;
+package com.lpnu.mapper;
 
-import dto.UserDTO;
-import entity.Order;
-import entity.User;
+
+import com.lpnu.dto.UserDTO;
+import com.lpnu.entity.Order;
+import com.lpnu.entity.User;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

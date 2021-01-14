@@ -1,7 +1,8 @@
-package mapper;
+package com.lpnu.mapper;
 
-import dto.GameDTO;
-import entity.Game;
+
+import com.lpnu.dto.GameDTO;
+import com.lpnu.entity.Game;
 import org.springframework.stereotype.Component;
 
 @Component

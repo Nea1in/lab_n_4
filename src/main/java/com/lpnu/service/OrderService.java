@@ -1,6 +1,8 @@
-package service;
+package com.lpnu.service;
 
-import dto.OrderDTO;
+
+
+import com.lpnu.dto.OrderDTO;
 
 import java.util.List;
 

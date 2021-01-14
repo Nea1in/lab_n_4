@@ -1,8 +1,9 @@
-package repository;
+package com.lpnu.repository;
 
-import entity.Order;
-import entity.User;
-import exception.ServiceException;
+
+import com.lpnu.entity.Order;
+import com.lpnu.entity.User;
+import com.lpnu.exception.ServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
